@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVisualizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="Buscar Valores"
+            android:textAlignment="center"
+            android:textColor="#100404"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:text="Name" />
+    </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_calcular"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_redondeado"
+                android:backgroundTint="#3F51B6"
+                android:padding="2dp"
+                android:text="Calcular"
+                android:textSize="26dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="207dp"
+                tools:layout_editor_absoluteY="672dp" />
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:text="Cuadrado" />
+
+            <EditText
+                android:id="@+id/edt_cuadrado"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:text="Name" />
+
+            <View
+                android:id="@+id/dividers"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textVsiesw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:text="Al Cubo" />
+
+            <EditText
+                android:id="@+id/edt_cubo"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:text="Name" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textViesw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:text="Raiz Cuadrada" />
+
+            <EditText
+                android:id="@+id/edt_raiz_cuadrada"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:text="Name" />
+
+            <View
+                android:id="@+id/divideras"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textViesws"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="center"
+                android:text="Raiz Cubica" />
+
+            <EditText
+                android:id="@+id/edt_raiz_cubica"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:text="Name" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
